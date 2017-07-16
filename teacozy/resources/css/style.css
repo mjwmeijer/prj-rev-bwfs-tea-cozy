@@ -1,0 +1,130 @@
+body{font-family:Helvetica;
+  font-size:22px;
+  color:seashell;
+  background-color:black;
+  opacity:0.9;
+  text-align:center;
+  margin:0;
+}
+
+
+header {display: flex;
+  position:fixed;
+justify-content: space-between;
+border-bottom: 1px solid seashell;
+align-items:center;
+position:fixed;
+z-index:2;
+width:100%;
+height:69px;
+background-color:black;
+}
+
+header>nav>span>a {font-family:Helvetica;
+  font-size:22px;
+  color:seashell;
+  margin:1em;
+}
+
+.logo {
+  margin-left:10px
+}
+
+main {
+  display:block;
+  padding-top:69px;
+}
+#mission{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  height:700px;
+  width:1200px;
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  margin:auto;
+  }
+
+#mission h2{
+  background-color:black;
+  padding-bottom:0.5em;
+  margin:0;
+  width:1200px;
+  padding-top:0.3em;
+  }
+
+#mission h4{
+  background-color:black;
+  margin:0;
+  width:1200px;
+  padding-bottom:0.5em;
+}
+
+.featured_tea_pictures {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  }
+
+#featured_tea {
+  width:1000px;
+  margin:auto;
+}
+
+.fall, .spiced, .donut{
+  margin-bottom:20px;
+}
+.myrtle{
+  padding-left:160px;
+  margin-bottom:50px;
+}
+
+.bedford{
+  padding-right:160px;
+}
+
+div>h4{
+  margin:0;
+  padding:10px;
+}
+
+#locations{
+  width:1200px;
+  height:500px;
+  margin:auto;
+  display:block;
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  }
+
+.downtown, .east_bayside, .oakdale {
+  width:300px;
+  height:250px;
+  background-color:black;
+  opacity: 1;
+}
+
+.locations_container{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  margin:0;
+  padding:0;
+  }
+
+  #locations>h3 {
+    padding-top:80px;
+    padding-bottom:15px;
+    margin:0;
+  }
+
+  .east_bayside{
+    margin-left:40px;
+    margin-right:40px;
+  }
+
+.end {height:200px;}
+
+footer>p{
+  text-align:left;
+  margin-left:20px;
+}
